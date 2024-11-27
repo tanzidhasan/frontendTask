@@ -1,0 +1,104 @@
+.plan_card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+.card_icon {
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 20px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card_title {
+    text-align: center;
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card_pay_amnt {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card_descriptionWithAmnt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.card_description {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+
+.card_prac_amnt {
+    width: 40px;
+    text-align: center;
+}
+
+.card_bullet {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.bullet_tick {
+    height: 12px;
+    width: 12px;
+    padding: 6px;
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bullet_text {
+    font-size: 14px;
+    color: gray;
+}
+
+
+.card_button{
+    text-align: center;
+    background-color: var(--primary_color);
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    width: 320px;
+    align-self: center;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.card_button{
+    cursor: pointer;
+}
+

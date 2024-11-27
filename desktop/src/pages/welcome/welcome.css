@@ -1,10 +1,17 @@
 .welcome_body {
     display: flex;
     flex-direction: column;
-    background-color: var(--secondary_color);
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: "Poppins", sans-serif;
+}
+
+.upper_welcome_body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary_color);
+    padding-bottom: 25%;
+    margin-bottom: 25%;
 }
 
 .priceing_plans {
@@ -31,8 +38,7 @@
     font-weight: 500;
 }
 
-
-.try_plan{
+.try_plan {
     text-align: center;
     align-self: center;
     color: var(--primary_text_color);
@@ -41,21 +47,93 @@
     padding-bottom: 1rem;
 }
 
-.mon_year_button{
+.mon_year_button {
     display: flex;
     flex-direction: row;
     align-self: center;
     align-items: center;
-    padding: 2px;
+    padding: 3px;
     background-color: gainsboro;
     border-radius: 0.3rem;
 }
 
-.plan_button{
+.plan_button {
     text-align: center;
     padding: 0.5rem 2rem 0.5rem 2rem;
     background-color: white;
     border: 0;
     border-radius: 0.3rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: black;
+}
+
+.plan_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    position: absolute;
+    top: 80%;
+    z-index: 900;
+    align-self: center;
+}
+
+.trial-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0fcf9;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 2%;
+}
+
+.trial-text {
+    max-width: 60%;
+}
+
+.trial-text h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary_color);
+}
+
+.trial-text p {
+    margin: 5px 0 0;
+    color: var(--primary_color);
+    font-size: 1rem;
+}
+
+.trial-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.learn-more {
+    background: transparent;
+    border: 1px solid var(--primary_color);
+    color: var(--primary_color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+
+.get-started {
+    background-color: var(--primary_color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
 }
 
