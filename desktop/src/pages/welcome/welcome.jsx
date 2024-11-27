@@ -10,6 +10,7 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import Plan_card from "../../components/plan_card/plan_card";
 import Solve_needs from "../../components/solve_needs/solve_needs";
+import Faq from "../../components/faq/faq";
 
 export default function Welcome() {
     const [plan_butt, setPlanButton] = useState(true);
@@ -129,9 +130,10 @@ export default function Welcome() {
                 </div>
 
                 <Solve_needs />
+
+                <Faq />
+
                 
-
-
             </div>
 
             <Footer />

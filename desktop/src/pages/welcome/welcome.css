@@ -99,8 +99,9 @@
 
 .trial-text h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--primary_color);
+    font-weight: 500;
 }
 
 .trial-text p {
