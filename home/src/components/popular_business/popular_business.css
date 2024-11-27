@@ -1,0 +1,121 @@
+.popular_business_body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.popular_business_header {
+    text-align: center;
+    color: var(--yellow_text_color);
+    margin-bottom: 1.5%;
+}
+
+.popular_business_title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gray_text_color);
+    margin-bottom: 1.5%;
+}
+
+.popular_business_description {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 75%;
+    color: var(--gray_text_color);
+}
+
+.popular_business_button {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary_text_color);
+    border-radius: 30px;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.popular_business_button_items {
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.popular_business_button_items:hover {
+    background-color: #cfe0e2;
+}
+
+.popular_business_cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 2%;
+}
+
+.popular_business_card {
+    background-color: var(--primary_color);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    min-width: 499px;
+}
+
+.popular_business_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.popular_business_card_header {
+    background-color: white;
+    text-align: center;
+    color: var(--gray_text_color);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.popular_business_card_title {
+    font-size: 20px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.popular_business_card_description {
+    font-size: 0.875rem;
+    flex-wrap: wrap;
+}
+
+.popular_business_card_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: fit-content;
+}
+
+
+.popular_business_card_button {
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.popular_business_card_upper_tick{
+    height: 25px;
+    width: 25px;
+}
+
+
+
