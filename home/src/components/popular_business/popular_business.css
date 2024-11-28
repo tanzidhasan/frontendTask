@@ -67,8 +67,9 @@
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 1rem;
     max-width: 500px;
-    min-width: 499px;
 }
+
+
 
 .popular_business_card_text {
     display: flex;
@@ -98,7 +99,7 @@
     flex-wrap: wrap;
 }
 
-.popular_business_card_footer{
+.popular_business_card_footer {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -106,16 +107,24 @@
     width: fit-content;
 }
 
-
 .popular_business_card_button {
     border-bottom: 1px solid white;
     width: fit-content;
 }
 
-.popular_business_card_upper_tick{
+.popular_business_card_upper_tick {
     height: 25px;
     width: 25px;
 }
 
+.popular_business_card_img {
+    display: flex;
+}
+
+.popular_business_card_img_ {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
 

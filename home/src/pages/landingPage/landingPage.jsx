@@ -7,6 +7,7 @@ import Footer from "desktopApp/footer";
 import Solve_needs from "desktopApp/solve_needs";
 import Business_solution from "../../components/business_solution/business_solution";
 import Popular_business from "../../components/popular_business/popular_business";
+import All_card from "../../components/all_card/all_card";
 
 export default function LandingPage() {
     return (
@@ -17,9 +18,9 @@ export default function LandingPage() {
 
             <Popular_business />
 
-            <div className="data">Home</div>
-
             <Solve_needs />
+
+            <All_card />
 
             <Footer />
         </>

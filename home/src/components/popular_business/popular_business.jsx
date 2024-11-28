@@ -103,50 +103,51 @@ export default function Popular_business() {
             </div>
 
             <div className="popular_business_cards">
-                {popular_business_array
-                    .map((card) =>
-                        card.header === popular_button ? (
-                            <div className="popular_business_card">
-                                <div className="popular_business_card_text">
-                                    <div className="popular_business_card_header">
-                                        {card.header}
-                                    </div>
-
-                                    <div className="popular_business_card_title">
-                                        {card.title}
-                                    </div>
-                                    <div className="popular_business_card_description">
-                                        {card.description}
-                                    </div>
-
-                                    <div className="popular_business_card_footer">
-                                        <div className="popular_business_card_button">
-                                            Learn More
-                                        </div>
-
-                                        <img
-                                            className="popular_business_card_upper_tick"
-                                            src={upperTick}
-                                            alt="Upper Tick"
-                                        />
-                                    </div>
+                {popular_business_array.map((card) =>
+                    card.header === popular_button ? (
+                        <div className="popular_business_card">
+                            <div className="popular_business_card_text">
+                                <div className="popular_business_card_header">
+                                    {card.header}
                                 </div>
 
-                                <img
-                                    className="popular_business_card_img"
-                                    src={card.img}
-                                    alt="popular_business_img"
-                                />
+                                <div className="popular_business_card_title">
+                                    {card.title}
+                                </div>
+                                <div className="popular_business_card_description">
+                                    {card.description}
+                                </div>
+
+                                <div className="popular_business_card_footer">
+                                    <div className="popular_business_card_button">
+                                        Learn More
+                                    </div>
+
+                                    <img
+                                        className="popular_business_card_upper_tick"
+                                        src={upperTick}
+                                        alt="Upper Tick"
+                                    />
+                                </div>
                             </div>
-                        ) : (
+                            
                             <img
                                 className="popular_business_card_img"
-                                style={{ width: "100px", objectFit: "cover", borderRadius: "20px" }}
                                 src={card.img}
                                 alt="popular_business_img"
                             />
-                        )
-                    )}
+                        </div>
+                    ) : (
+                        <img
+                            className="popular_business_card_img_"
+                            onMouseEnter={() => {
+                                setPopular_button(card.header);
+                            }}
+                            src={card.img}
+                            alt="popular_business_img"
+                        />
+                    )
+                )}
             </div>
         </div>
     );
